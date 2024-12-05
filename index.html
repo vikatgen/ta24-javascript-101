@@ -7,10 +7,18 @@
 </head>
 <body>
     <h1>Teretulemast</h1>
-    <button>Ära puutu!</button>
+    <button id="dont-touch-me-button">Ära puutu!</button>
 
     <h3>Puuviljad:</h3>
     <div id="fruit-list"></div>
+
+    <form id="add-new-fruit-form">
+        <fieldset>
+            <label for="fruit">Puuvilja nimetus</label>
+            <input type="text" name="fruit" id="fruit-input">
+        </fieldset>
+        <button type="submit">Lisa puuvili</button>
+    </form>
     <script src="./dom.js"></script>
 </body>
 </html>
