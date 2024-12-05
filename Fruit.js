@@ -68,7 +68,9 @@ export class Fruit {
         event.target.classList.remove("draggable");
     }
 
-    handleDragOver(event) {};
+    handleDragOver(event) {
+        event.preventDefault();
+    };
 
     handleDrop(event) {};
 };
